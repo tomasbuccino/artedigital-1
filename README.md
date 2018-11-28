@@ -2,12 +2,8 @@
 Final de Arte Digital 1
 
 El original es ver2, el redone es una prueba que hice (halfway) con/para Alberti usando switch para procesar las secciones/casos.
-______________________
-|                     |
-|                     |
-|       OBRA          |--------------|---------------|--------------|
-|                     |   SECTOR1         SECTOR2         SECTOR3
-|_____________________|
+
+| OBRA |-----SECTOR1-----|-----SECTOR2-----|-----SECTOR3-----|
 
 SECTOR3: El sector 3 es la obra sin interacción, en idle, donde la obra "habla" consigo misma. Básicamente reproduce sonidos con un delay 
 de 3000 ms.
