@@ -16,10 +16,10 @@ SECTOR 1: Básicamente lo mismo que el sector 3 pero con otros audios.
 
 Quizás tendrían que estar las siguientes variables:
 
-IDLE: Boolean de si está en idle(sector3) o no.
+BOOLEAN IDLE: Si está en idle(sector3) o no.
 
-TRIGGERED: Boolean de si yá pasó por el sector 2, debería aparecer una vez terminado el ani. Cuando vuelve a idle se tendría que resetear el valor de triggered.
+BOOLEAN TRIGGERED: Si yá pasó por el sector 2, debería aparecer una vez terminado el ani. Cuando vuelve a idle se tendría que resetear el valor de triggered.
 
-ANICOMPLETE: Tendría que tener un boolean que detectara si se completó el ani o si se lo ignoró y en base a este boolean cambia el feedback.
+BOOLEAN ANICOMPLETE: Tendría que tener un boolean que detectara si se completó el ani o si se lo ignoró y en base a este boolean cambia el feedback.
 
 Alberti dixit: Tiene que haber una variable, un estado, que indique que el sonido está corriendo, que pregunte todo el tiempo y cuando no, que corra otro o haga otra cosa.
