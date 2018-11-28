@@ -3,10 +3,9 @@ Final de Arte Digital 1
 
 El original es ver2, el redone es una prueba que hice (halfway) con/para Alberti usando switch para procesar las secciones/casos.
 
-| OBRA |-----SECTOR1-----|-----SECTOR2-----|-----SECTOR3-----|
+| OBRA |-----SECTOR 1-----|-----SECTOR 2-----|-----SECTOR 3-----|
 
 Básicamente la obra consiste en un sensor de distancia, al que se le pasan 3 ranges de valores y estos 3 ranges corresponden a sectores de "acercamiento" a la obra
-
 
 SECTOR3: El sector 3 es la obra sin interacción, en idle, donde la obra "habla" consigo misma. Básicamente reproduce sonidos con un delay  de 3000 ms.
 
