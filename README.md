@@ -7,12 +7,12 @@ El original es ver2, el redone es una prueba que hice (halfway) con/para Alberti
 
 Básicamente la obra consiste en un sensor de distancia, al que se le pasan 3 ranges de valores y estos 3 ranges corresponden a sectores de "acercamiento" a la obra
 
-SECTOR3: El sector 3 es la obra sin interacción, en idle, donde la obra "habla" consigo misma. Básicamente reproduce sonidos con un delay  de 3000 ms.
+SECTOR 3: El sector 3 es la obra sin interacción, en idle, donde la obra "habla" consigo misma. Básicamente reproduce sonidos con un delay  de 3000 ms.
 
-SECTOR2: Cuando se entra en el range del sector 2, se emite un audio y arranca un Ani. Cuando termina el Ani, se emite otro audio indicando que se puede pasar al sector 1. si no se respeta el ani, hay otro feedback y el sector 1 se vuelve unresponsive.
+SECTOR 2: Cuando se entra en el range del sector 2, se emite un audio y arranca un Ani. Cuando termina el Ani, se emite otro audio indicando que se puede pasar al sector 1. si no se respeta el ani, hay otro feedback y el sector 1 se vuelve unresponsive.
 Volver al sector 2 no tendría que retriggerear el ani si ya se pasó por esa instancia. Al idle se vuelve dejando la obra en realidad, porque el sensor pasa a detectar el range del sector 3. 
 
-SECTOR1: Básicamente lo mismo que el sector 3 pero con otros audios.
+SECTOR 1: Básicamente lo mismo que el sector 3 pero con otros audios.
 
 Quizás tendrían que estar las siguientes variables:
 
