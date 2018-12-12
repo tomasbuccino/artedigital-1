@@ -1,6 +1,8 @@
 # artedigital-1
 Final de Arte Digital 1
 
+UPDATE VER3: Agregadas las funciones, booleans e ifs básicos. No sé si está bien la lógica. Falta probar. Código comentado. Falta particularizar las funciones que reproducen audio.
+
 El original es ver2, el redone es una prueba que hice (halfway) con/para Alberti usando switch para procesar las secciones/casos.
 
 | OBRA |----- SECTOR 1 -----|----- SECTOR 2 -----|----- SECTOR 3 -----|
