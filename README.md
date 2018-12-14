@@ -1,7 +1,7 @@
 # artedigital-1
 Final de Arte Digital 1
 
-UPDATE VER3: Agregadas las funciones, booleans e ifs básicos. No sé si está bien la lógica. Falta probar. Código comentado. Falta particularizar las funciones que reproducen audio. Necesito que los audios se reproduzcan en intervalos: problema, con los booleans se reproducen constantemente, si los dejo sin nada se superponen y no respetan el intervalo. 
+UPDATE VER3: Agregadas las funciones, booleans e ifs básicos. No sé si está bien la lógica. Falta probar. Código comentado. Necesito que los audios se reproduzcan en intervalos: problema, me parece que con los ifs a partir de los booleans se reproducen solo una vez y si los dejo sin nada se superponen y no respetan el intervalo. 
 
 El original es ver2, el redone es una prueba que hice (halfway) con/para Alberti usando switch para procesar las secciones/casos.
 
